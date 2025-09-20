@@ -1,24 +1,11 @@
-*{
+.student{
+    font:Arial;
+    border:1px solid black;
+    padding:10px;
+
+}
+
+.student p{
     margin:0;
-    padding:0
+    color:red
 }
-
-.card{
-    border : 1px solid grey;
-    padding: 20px ;
-    margin:20px;
-    box-shadow:5px 5px 5px grey;
-    border-radius:10px;
-    text-align:center;
-    max-width:250px;
-    display:inline-block;
-
-}
-
-.card .image-one{
-    width:80%;
-    height:auto;
-    border-radius:100px;
-
-}
-
