@@ -1,13 +1,10 @@
-import Prop from "./Prop.jsx"
-
+import CheckLog from "./CheckLog.jsx"
 function App() {
   return(
     <>
-<Prop name={21} age="21" isPassed={false}/>
-<Prop name="dharun" age={21} isPassed={false}/>
-<Prop name="dharun" age={21} isPassed={false}/>
-<Prop name="dharun" age={22} isPassed={false}/>
-<Prop/>
+      <CheckLog  IsLogged={true} username="dharun"/>
+      <CheckLog  IsLogged={false} username="dharun"/>
+      <CheckLog  />
     </>
 )}
 
