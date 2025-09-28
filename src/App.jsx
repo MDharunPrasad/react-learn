@@ -3,8 +3,8 @@ function App() {
   return(
     <>
       <CheckLog  IsLogged={true} username={123}/>
-      <CheckLog  IsLogged={false} username="dharun"/>
-   
+
+   x
     </>
 )}
 
