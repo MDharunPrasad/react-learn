@@ -1,5 +1,5 @@
 function List() {
-  const fruits = ["apple", "banana", "actorr"];
+  const fruits = ["apple", "banana", "actor"];
   fruits.sort()
 
   const fruitList = fruits.map(fruit =><li>{fruit}</li>)
