@@ -1,10 +1,10 @@
-import CheckLog from "./CheckLog.jsx"
+import List from "./List.jsx"
 function App() {
   return(
     <>
-      <CheckLog  IsLogged={true} username={123}/>
 
-   x
+<List/>
+   
     </>
 )}
 
